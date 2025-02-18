@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Tania Novikova](https://up.htmlacademy.ru/adaptive-individual/2/user/2564485).
-* Наставник: `Неизвестно`.
+* Наставник: `Ярослав Шевцов`.
 
 ---
 
