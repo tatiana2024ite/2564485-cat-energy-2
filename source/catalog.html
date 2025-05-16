@@ -14,7 +14,15 @@
     <div class="page-container">
       <nav class="main-nav">
         <a class="main-nav__logo" href="index.html">
-          <img class="main-nav__logo-image" src="images/logotype.svg" width="70" height="59" alt="Кэт энерджи">
+          <picture>
+            <source width="70" height="59" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logotype-picture-desktop.svg 1x, images/logotype-picture-desktop.svg 2x">
+            <source width="60" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logotype-picture-tablet.svg 1x, images/logotype-picture-tablet.svg 2x">
+            <img class="main-nav__logo-image" src="images/logotype-picture-mobile.svg" srcset="images/logotype-picture-mobile.svg 2x" width="33" height="38" alt="Кэт энерджи">
+          </picture>
+          <picture>
+            <source width="118" height="21" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logotype-text-desktop.svg 1x, images/logotype-text-desktop.svg 2x">
+            <img class="main-nav__logo-text" src="images/logotype-text-mobile.svg" srcset="images/logotype-text-mobile.svg 2x" width="101" height="18" alt="Текст логотипа кэт энерджи">
+          </picture>
         </a>
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <div class="main-nav__wrapper">
@@ -66,7 +74,7 @@
                 <td class="catalog-card__content">700 ₽</td>
               </tr>
             </table>
-            <a class="catalog-card__slim button" href="#">Заказать</a>
+            <a class="catalog-card__slim catalog__button" href="#">Заказать</a>
           </li>
           <li class="catalog__item catalog__item--product">
             <picture>
@@ -89,7 +97,7 @@
                 <td class="catalog__content">1000 ₽</td>
               </tr>
             </table>
-            <a class="catalog__slim button" href="#">Заказать</a>
+            <a class="catalog__slim catalog__button" href="#">Заказать</a>
           </li>
           <li class="catalog__item catalog__item--product">
             <picture>
@@ -112,7 +120,7 @@
                 <td class="catalog__content">700 ₽</td>
               </tr>
             </table>
-            <a class="catalog__slim button" href="#">Заказать</a>
+            <a class="catalog__slim catalog__button" href="#">Заказать</a>
           </li>
           <li class="catalog__item catalog__item--product">
             <picture>
@@ -135,7 +143,7 @@
                 <td class="catalog__content">1000 ₽</td>
               </tr>
             </table>
-            <a class="catalog__slim button" href="#">Заказать</a>
+            <a class="catalog__slim catalog__button" href="#">Заказать</a>
           </li>
           <li class="catalog__item catalog__item--product">
             <picture>
@@ -158,7 +166,7 @@
                 <td class="catalog__content">400 ₽</td>
               </tr>
             </table>
-            <a class="catalog__slim button" href="#">Заказать</a>
+            <a class="catalog__slim catalog__button" href="#">Заказать</a>
           </li>
           <li class="catalog__item catalog__item--product">
             <picture>
@@ -181,7 +189,7 @@
                 <td class="catalog__content">700 ₽</td>
               </tr>
             </table>
-            <a class="catalog__slim button" href="#">Заказать</a>
+            <a class="catalog__slim catalog__button" href="#">Заказать</a>
           </li>
           <li class="catalog__item catalog__item--product">
             <picture>
@@ -204,12 +212,12 @@
                 <td class="catalog__content">500 ₽</td>
               </tr>
             </table>
-            <a class="catalog__slim button" href="#">Заказать</a>
+            <a class="catalog__slim catalog__button" href="#">Заказать</a>
           </li>
           <li class="catalog__item catalog__item--more-products">
             <h3 class="catalog__title">Показать еще 100500 товаров</h3>
             <p class="catalog__description">На самом деле вкусов гораздо больше!</p>
-            <a class="catalog__slim button button--inactive" href="#">Показать все</a>
+            <a class="catalog__slim catalog__button button--inactive" href="#">Показать все</a>
           </li>
         </ul>
       </div>
