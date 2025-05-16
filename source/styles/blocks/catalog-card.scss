@@ -1,0 +1,42 @@
+.catalog-card__title {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.catalog-card__caption,
+.catalog-card__content {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.catalog__button {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #68b738;
+}
+
+.catalog__description {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.button--inactive {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #000000;
+  background-color: #f2f2f2;
+}

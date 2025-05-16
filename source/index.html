@@ -18,7 +18,15 @@
     <div class="page-container">
       <nav class="main-nav">
         <a class="main-nav__logo" href="index.html">
-          <img class="main-nav__logo-image" src="images/logotype.svg" width="70" height="59" alt="Кэт энерджи">
+          <picture>
+            <source width="70" height="59" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logotype-picture-desktop.svg 1x, images/logotype-picture-desktop.svg 2x">
+            <source width="60" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logotype-picture-tablet.svg 1x, images/logotype-picture-tablet.svg 2x">
+            <img class="main-nav__logo-image" src="images/logotype-picture-mobile.svg" srcset="images/logotype-picture-mobile.svg 2x" width="33" height="38" alt="Кэт энерджи">
+          </picture>
+          <picture>
+            <source width="118" height="21" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logotype-text-desktop.svg 1x, images/logotype-text-desktop.svg 2x">
+            <img class="main-nav__logo-text" src="images/logotype-text-mobile.svg" srcset="images/logotype-text-mobile.svg 2x" width="101" height="18" alt="Текст логотипа кэт энерджи">
+          </picture>
         </a>
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <div class="main-nav__wrapper">
@@ -65,12 +73,12 @@
           <li class="programs__item programs__item--slim">
             <h3 class="programs__title">Похудение</h3>
             <p class="programs__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
-            <a class="programs__slim link" href="#">Каталог slim</a>
+            <a class="programs__slim programs__link" href="#">Каталог slim</a>
           </li>
           <li class="programs__item programs__item--pro">
             <h3 class="programs__title">Набор массы</h3>
             <p class="programs__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
-            <a class="programs__pro link" href="#">Каталог pro</a>
+            <a class="programs__pro programs__link" href="#">Каталог pro</a>
           </li>
         </ul>
       </div>
@@ -126,8 +134,8 @@
             <img class="example-slider__image" src="images/slider-before-fatcat-mobile@1x.png" srcset="images/slider-before-fatcat-mobile@2x.png 2x" width="280" height="256" alt="Cat before our program">
           </picture>
           <picture>
-            <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/slider-before-slimcat-tablet@1x.png 1x, images/slider-before-slimcat-tablet@2x.png 2x">
-            <img class="example-slider__image" src="images/slider-before-slimcat-mobile@1x.png" srcset="images/slider-before-slimcat-mobile@2x.png 2x" width="280" height="256" alt="Cat after our program">
+            <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/slider-after-slimcat-tablet@1x.png 1x, images/slider-after-slimcat-tablet@2x.png 2x">
+            <img class="example-slider__image" src="images/slider-after-slimcat-mobile@1x.png" srcset="images/slider-after-slimcat-mobile@2x.png 2x" width="280" height="256" alt="Cat after our program">
           </picture>
         </div>
       </div>
