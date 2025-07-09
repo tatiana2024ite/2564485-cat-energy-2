@@ -1,5 +1,5 @@
 .catalog-card__title {
-  font-family: "Oswald";
+  font-family: $primary-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -15,7 +15,7 @@
 }
 
 .catalog__button {
-  font-family: "Oswald";
+  font-family: $primary-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -29,14 +29,4 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-}
-
-.button--inactive {
-  font-family: "Oswald";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  text-decoration: none;
-  color: #000000;
-  background-color: #f2f2f2;
 }

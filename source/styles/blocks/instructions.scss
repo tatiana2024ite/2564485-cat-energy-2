@@ -1,5 +1,5 @@
 .instructions__title {
-  font-family: "Oswald";
+  font-family: $primary-font;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
@@ -16,4 +16,37 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
+}
+
+.instructions__item {
+  position: relative;
+  padding-left: 80px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+.instructions__item--healthy::before {
+  background-image: url("../../icons/stack.svg#green-icon-leaf");
+}
+
+.instructions__item--easy::before {
+  background-image: url("../../icons/stack.svg#green-icon-water");
+}
+
+.instructions__item--interchangeable::before {
+  background-image: url("../../icons/stack.svg#green-icon-eat");
+}
+
+.instructions__item--fast::before {
+  background-image: url("../../icons/stack.svg#green-icon-clock");
 }

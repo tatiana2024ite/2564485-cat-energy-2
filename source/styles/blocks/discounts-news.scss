@@ -1,19 +1,19 @@
 .discounts-news__title {
-  font-family: "Oswald";
+  font-family: $primary-font;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
 }
 
 .discounts-news__description {
-  font-family: "Oswald";
+  font-family: $primary-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
 }
 
 .discounts-news__subscribe .field {
-  font-family: "Oswald";
+  font-family: $primary-font;
   font-weight: 400;
   font-size: 20px;
   color: #444444;
@@ -22,7 +22,7 @@
 .discounts-news__button {
   background-color: #68b738;
   color: #ffffff;
-  font-family: "Oswald";
+  font-family: $primary-font;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;

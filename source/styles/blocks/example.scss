@@ -1,5 +1,5 @@
 .example__title {
-  font-family: "Oswald";
+  font-family: $primary-font;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
@@ -19,7 +19,7 @@
 }
 
 .example-list__measure {
-  font-family: "Oswald";
+  font-family: $primary-font;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
@@ -35,9 +35,26 @@
 
 .example-footer__content,
  .example-footer__measure {
-  font-family: "Oswald";
+  font-family: $primary-font;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
+}
+
+.example-slider__toggle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 100%;
+  background-image: url("../../icons/stack.svg#arrow-slider");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.example-slider {
+  position: relative;
 }

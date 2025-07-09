@@ -1,3 +1,18 @@
 .nav {
   background-color: #ffffff;
 }
+
+.main-nav__toggle {
+  width: 18px;
+  height: 18px;
+  background-image: url("../../icons/stack.svg#icon-menu-burger");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+}
+
+.main-nav__toggle--close {
+  background-image: url("../../icons/stack.svg#icon-exit");
+}
